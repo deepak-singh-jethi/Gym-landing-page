@@ -26,7 +26,7 @@ const variants2 = {
 
 const HeroSection = () => {
   return (
-    <HeroSectionWrapper imageArray={homeHeroUrls} wrapperHeight="100%">
+    <HeroSectionWrapper imageArray={homeHeroUrls} wrapperHeight="100vh">
       {/* hero headings para and buttons */}
       <div className="flex flex-col justify-center items-start container z-50 mx-6 sm:mx-auto gap-6 md:gap-10 lg:gap-32 mt-[120px]  md:mt-[140px] lg:mt-[180px]">
         {" "}
@@ -35,7 +35,7 @@ const HeroSection = () => {
             <span className="text-[#F2FD84]">ACHIEVE</span> MORE THAN JUST
             FITNESS
           </h1>
-          <p className="text-gray-400 text-base sm:text-lg md:text-xl mt-6 max-w-xl">
+          <p className="text-gray-200 text-base sm:text-lg md:text-xl mt-6 max-w-xl">
             Combine strength, flexibility, and endurance in a community that
             values well-rounded health and supportive growth.
           </p>

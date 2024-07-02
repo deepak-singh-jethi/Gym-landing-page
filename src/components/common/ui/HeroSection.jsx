@@ -20,7 +20,7 @@ const HeroSection = ({ word, spanWord, imageArray, page }) => {
     <HeroSectionWrapper imageArray={imageArray} wrapperHeight="60vh">
       {/* Hero Section Content */}
       <motion.div
-        className="container z-50 mx-4 sm:mx-auto"
+        className="container z-50 mx-4 sm:mx-auto mt-[180px]"
         variants={variants1}
         initial="hidden"
         animate="visible">

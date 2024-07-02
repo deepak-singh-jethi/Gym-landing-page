@@ -18,13 +18,12 @@ const HeroSectionWrapper = ({ children, imageArray, wrapperHeight }) => {
       style={{
         height: `${wrapperHeight}`,
       }}>
-      {/* Hero Image */}
       <AnimatePresence>
         <motion.img
           key={imageIndex}
           src={imageArray[imageIndex]}
           alt={`Hero Image ${imageIndex + 1}`}
-          className="absolute inset-0 object-cover w-full md:object-center object-right h-full"
+          className="absolute inset-0 object-cover w-full  object-right md:object-center h-full"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0, transition: { duration: 1 } }}
@@ -37,11 +36,9 @@ const HeroSectionWrapper = ({ children, imageArray, wrapperHeight }) => {
           }}
         />
       </AnimatePresence>
-      {/* Overlay with gradient */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent  opacity-50 -z-10"></div>
-      <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent  opacity-60 -z-10"></div>
 
-      {children}
+      <div className="absolute inset-0 bg-black opacity-50 -z-10"></div>
+      <div className="z-50">{children}</div>
     </motion.div>
   );
 };

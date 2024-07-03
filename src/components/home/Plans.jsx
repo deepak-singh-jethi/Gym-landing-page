@@ -1,21 +1,66 @@
+import { motion } from "framer-motion";
 import { plans } from "../../assets/staticData";
 import MainButton from "../common/buttons/MainButton";
+
+const variants1 = {
+  visible: {
+    opacity: 1,
+    y: 0,
+  },
+  hidden: {
+    opacity: 0,
+    y: 70,
+  },
+};
+const variants2 = {
+  visible: (index) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.8,
+      ease: "easeInOut",
+      delay: 0.4 * index,
+    },
+  }),
+  hidden: {
+    opacity: 0,
+    y: 70,
+  },
+};
 
 const Plans = () => {
   return (
     <div className="container mx-auto my-10">
-      <div className="flex justify-center items-center flex-col py-10 gap-4 ">
-        <h1 className="text-4xl font-bold text-white text-center">
+      <motion.div
+        className="flex justify-center items-center flex-col py-10 gap-4 "
+        variants={variants1}
+        initial="hidden"
+        whileInView="visible"
+        transition={{
+          duration: 0.5,
+          ease: "easeInOut",
+        }}
+        viewport={{ once: true }}>
+        <h1
+          className="lg:text-6xl
+         md:text-4xl
+         sm:text-3xl
+         font-bold text-white text-center">
           <span className="text-[#F2FD84]">FLEXIBLE</span> PLANS <br /> FOR
           EVERY BUDGET
         </h1>
         <p className="text-gray-400">
           Choose a plan that suits you. No long-term commitments required.
         </p>
-      </div>
-      <div className="grid grid-cols-1 items-center  md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-6">
+      </motion.div>
+      <motion.div className="grid grid-cols-1 items-center md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-6">
         {plans.map((plan, index) => (
-          <div
+          <motion.div
+            variants={variants2}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            custom={index}
             key={index}
             className="flex flex-col items-center  justify-between gap-6 md:gap-10  py-10 bg-gradient-to-b from-[#262625] to-[#353535]  border-[0.1px] border-gray-400  w-[300px] sm:w-[350px] md:w-[380px]  h-full">
             <h2 className="text-xl font-medium text-white ">{plan.plan}</h2>
@@ -44,9 +89,9 @@ const Plans = () => {
               ))}
             </ul>
             <MainButton title={plan.buttonText}></MainButton>
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 };

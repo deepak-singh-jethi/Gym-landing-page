@@ -5,10 +5,10 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <header
-      className="text-white py-5 px-8 container mx-auto fixed
-    top-0 left-0 right-0 z-20
-    
-     ">
+      className="text-white py-5 px-8  mx-auto fixed top-0 left-0 right-0  z-50"
+      style={{
+        backgroundColor: "rgba(0, 0, 0, 0.5)", // Set the background color
+      }}>
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}

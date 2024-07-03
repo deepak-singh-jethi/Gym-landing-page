@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import HeroSectionWrapper from "../HeroSectionWrapper";
+import HeroSectionWrapper from "./HeroSectionWrapper";
 import { motion } from "framer-motion";
 
 const variants1 = {
@@ -20,10 +20,11 @@ const HeroSection = ({ word, spanWord, imageArray, page }) => {
     <HeroSectionWrapper imageArray={imageArray} wrapperHeight="60vh">
       {/* Hero Section Content */}
       <motion.div
-        className="container z-50 mx-4 sm:mx-auto mt-[180px]"
+        className="container  mx-4 sm:mx-auto pt-[180px]"
         variants={variants1}
         initial="hidden"
         animate="visible">
+        {/* page heading */}
         <motion.h1
           className="text-[35px] sm:text-[40px] md:text-[50px] lg:text-[60px] font-extrabold text-white max-w-3xl leading-tight"
           variants={variants2}
@@ -32,6 +33,8 @@ const HeroSection = ({ word, spanWord, imageArray, page }) => {
           {word.toUpperCase()}{" "}
           <span className="text-[#F2FD84]">{spanWord.toUpperCase()}</span>
         </motion.h1>
+
+        {/* arrow navigator para */}
         <motion.p
           className="
         text-xl text-gray-400 mt-6 max-w-xl"

@@ -8,7 +8,7 @@ const SecondaryButton = ({ title, routeName }) => {
   };
   return (
     <button
-      className=" text-white text-sm sm:text-md md:text-xl py-2 px-4 border border-white"
+      className=" text-white text-sm sm:text-md md:text-xl py-2 px-4 border border-white "
       onClick={handleClick}>
       {title}
     </button>

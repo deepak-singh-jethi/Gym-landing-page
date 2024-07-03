@@ -34,8 +34,8 @@ const Reviews = () => {
           ))}
         </Marquee>
         {/* Left-right end shadow overlay */}
-        <div className="absolute top-0 left-0 h-full w-1/6 bg-gradient-to-r from-[#222222] z-10"></div>
-        <div className="absolute top-0 right-0 h-full w-1/6 bg-gradient-to-l from-[#222222] z-10"></div>
+        <div className="absolute top-0 left-0 h-full w-1/6 bg-gradient-to-r from-[#222222] "></div>
+        <div className="absolute top-0 right-0 h-full w-1/6 bg-gradient-to-l from-[#222222] "></div>
       </motion.div>
     </div>
   );

@@ -9,6 +9,16 @@ background-color: #222222;
 }
 
 
+.overlay-div::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  pointer-events:all;
+  /* Allows clicks to pass through to the underlying content */
+}
+
 
 
 

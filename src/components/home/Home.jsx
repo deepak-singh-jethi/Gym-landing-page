@@ -2,16 +2,29 @@ import HeroSection from "./HeroSection";
 import MotionBottomToTop from "../common/framerMotion/MotionBottomToTop";
 import Reviews from "./Reviews";
 
+import Features from "./Features";
+import Plans from "./Plans";
+import HomeFooterBanner from "./HomeFooterBanner";
+
 const Home = () => {
   return (
     <>
-      <MotionBottomToTop>
-        {/* Hero Section  */}
+      {/* Hero Section  */}
 
+      <MotionBottomToTop>
         <HeroSection />
-        {/* gym reviews */}
-        <Reviews />
       </MotionBottomToTop>
+
+      {/* gym reviews */}
+
+      <Reviews />
+      {/* plans */}
+      <Plans />
+      {/* features */}
+      <Features />
+
+      {/* footer banner */}
+      <HomeFooterBanner />
     </>
   );
 };

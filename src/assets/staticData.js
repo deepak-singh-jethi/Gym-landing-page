@@ -35,3 +35,45 @@ export const reviewsData = [
     stars: 5,
   },
 ];
+
+export const plans = [
+  {
+    plan: "BASIC PLAN",
+    price: "$39",
+    duration: "/month",
+    access: [
+      "Access to all cardio classes",
+      "Monthly body assessment",
+      "Nutritional guidance",
+    ],
+    frequency: "3 DAYS/WEEK",
+    buttonText: "GET STARTED",
+    buttonLink: "./classes",
+  },
+  {
+    plan: "PREMIUM PLAN",
+    price: "$59",
+    duration: "/month",
+    access: [
+      "All Basic Plan features",
+      "Strength training sessions",
+      "Nutritional guidance",
+    ],
+    frequency: "3 DAYS/WEEK",
+    buttonText: "GET STARTED",
+    buttonLink: "./classes",
+  },
+  {
+    plan: "ELITE PLAN",
+    price: "$79",
+    duration: "/month",
+    access: [
+      "All Premium Plan features",
+      "Personalized training programs",
+      "One-on-one coaching sessions",
+    ],
+    frequency: "Unlimited Access",
+    buttonText: "JOIN NOW",
+    buttonLink: "./elite",
+  },
+];

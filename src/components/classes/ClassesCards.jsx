@@ -50,7 +50,7 @@ const ClassesCards = () => {
                 </motion.div>
               )}
               {/* show level at top right inside a box */}
-              <div className="absolute top-1 right-1 bg-[#2a2a2a] text-white text-lg px-3 py-2  font-bold ">
+              <div className="absolute top-1 right-1 bg-[#4d4d4d] text-white text-lg px-3 py-2  font-bold shadow-neutral-700 ">
                 {item.level}
               </div>
             </div>

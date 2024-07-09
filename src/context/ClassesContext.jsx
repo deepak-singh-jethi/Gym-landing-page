@@ -9,6 +9,7 @@ export const ClassContext = createContext({
 // eslint-disable-next-line react/prop-types
 export const ClassesContextProvider = ({ children }) => {
   const getClass = (title) => {
+    console.log(title);
     return classesData.find((item) => item.title === title);
   };
 

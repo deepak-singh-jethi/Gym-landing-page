@@ -19,7 +19,7 @@ const variants2 = {
     transition: {
       duration: 0.8,
       ease: "easeInOut",
-      delay: 0.4 * index,
+      delay: 0.5 * index,
     },
   }),
   hidden: {
@@ -30,7 +30,7 @@ const variants2 = {
 
 const Plans = () => {
   return (
-    <div className="container mx-auto my-10">
+    <div className="container mx-auto my-10 px-4">
       <motion.div
         className="flex justify-center items-center flex-col py-10 gap-4 "
         variants={variants1}
@@ -41,15 +41,11 @@ const Plans = () => {
           ease: "easeInOut",
         }}
         viewport={{ once: true }}>
-        <h1
-          className="lg:text-6xl
-         md:text-4xl
-         sm:text-3xl
-         font-bold text-white text-center">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-center  text-white">
           <span className="text-[#F2FD84]">FLEXIBLE</span> PLANS <br /> FOR
           EVERY BUDGET
         </h1>
-        <p className="text-gray-400">
+        <p className="text-gray-400 md:text-left text-center">
           Choose a plan that suits you. No long-term commitments required.
         </p>
       </motion.div>

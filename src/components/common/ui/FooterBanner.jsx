@@ -1,5 +1,17 @@
+import { motion } from "framer-motion";
 import MainButton from "../buttons/MainButton";
 import HeroSectionWrapper from "./HeroSectionWrapper";
+
+const variants = {
+  visible: {
+    opacity: 1,
+    y: 0,
+  },
+  hidden: {
+    opacity: 0,
+    y: 70,
+  },
+};
 
 // eslint-disable-next-line react/prop-types
 const FooterBanner = ({ children, text, buttonTitle, imageUrl }) => {
@@ -7,7 +19,16 @@ const FooterBanner = ({ children, text, buttonTitle, imageUrl }) => {
     <HeroSectionWrapper imageArray={[imageUrl]}>
       <div className="grid grid-cols-1 md:grid-cols-2 py-10 justify-center h-[60vh] container mx-auto">
         {/* ! main content div */}
-        <div className="w-full flex flex-col justify-center items-center md:items-start gap-14 ">
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{
+            duration: 0.5,
+            ease: "easeInOut",
+          }}
+          viewport={{ once: true }}
+          className="w-full flex flex-col justify-center items-center md:items-start gap-14  ">
           {/* main heading */}
           {children}
 
@@ -18,7 +39,7 @@ const FooterBanner = ({ children, text, buttonTitle, imageUrl }) => {
             {/* button */}
             <MainButton title={buttonTitle} />
           </div>
-        </div>
+        </motion.div>
         {/* space filler div */}
         <div className="hidden md:block"></div>
       </div>

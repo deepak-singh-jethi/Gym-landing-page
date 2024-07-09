@@ -11,6 +11,7 @@ import Home from "./components/home/Home";
 import Contact from "./components/contact/Contact";
 import AboutUs from "./components/aboutUs/AboutUs";
 import Classes from "./components/classes/Classes";
+import ClassInfo from "./components/classes/ClassInfo";
 import TimeTable from "./components/timetable/TimeTable";
 
 const router = createBrowserRouter(
@@ -19,7 +20,10 @@ const router = createBrowserRouter(
       <Route index element={<Home />}></Route>
       <Route path="contact" element={<Contact />}></Route>
       <Route path="about" element={<AboutUs />}></Route>
-      <Route path="classes" element={<Classes />}></Route>
+      <Route path="classes">
+        <Route index element={<Classes />}></Route>
+        <Route path=":id" element={<ClassInfo />}></Route>
+      </Route>
       <Route path="timetable" element={<TimeTable />}></Route>
     </Route>
   )

@@ -8,8 +8,8 @@ const Reviews = () => {
   return (
     <div className="container mx-auto">
       {/* Reviews Section  */}
-      <div className="flex md:justify-between justify-center items-center px-4 pt-24 lg:pt-32 flex-col md:flex-row gap-14 md:gap-0">
-        <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-white">
+      <div className="flex md:justify-between justify-center items-center px-4 pt-24 lg:pt-32 flex-col md:flex-row gap-6 md:gap-0">
+        <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-white text-center md:text-left">
           TRANSFORMATIONS SPEAK <br /> LOUDER{" "}
           <span className="text-[#F2FD84]">THAN WORDS</span>
         </h1>
@@ -19,7 +19,7 @@ const Reviews = () => {
       </div>
 
       <motion.div
-        className=" overflow-hidden my-20  mx-auto relative"
+        className=" overflow-hidden my-10 md:my-20  mx-auto relative"
         initial={{ opacity: 0, y: -100, scale: 0.8 }}
         whileInView={{ opacity: 1, y: 0, scale: 1 }}
         transition={{ duration: 1.2 }}
@@ -34,8 +34,8 @@ const Reviews = () => {
           ))}
         </Marquee>
         {/* Left-right end shadow overlay */}
-        <div className="absolute top-0 left-0 h-full w-1/6 bg-gradient-to-r from-[#222222] "></div>
-        <div className="absolute top-0 right-0 h-full w-1/6 bg-gradient-to-l from-[#222222] "></div>
+        <div className="absolute top-0 left-0 h-full w-1/6 bg-gradient-to-r from-[#222222] z-10 "></div>
+        <div className="absolute top-0 right-0 h-full w-1/6 bg-gradient-to-l from-[#222222] z-10 "></div>
       </motion.div>
     </div>
   );

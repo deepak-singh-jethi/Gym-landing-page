@@ -108,48 +108,56 @@ export const classesData = [
         title: "Calorie Torch",
         description:
           "Burn a maximum number of calories in a short amount of time.",
-        icon: "https://framerusercontent.com/images/Yb7S9uk28VOdDbINdfeEQSlbqGs.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/Yb7S9uk28VOdDbINdfeEQSlbqGs.svg",
       },
       {
         title: "Full-Body Conditioning",
         description:
           "Target multiple muscle groups for a comprehensive workout.",
-        icon: "https://framerusercontent.com/images/OLIDGmTHbfa4evdT4XJHr5ZQSkw.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/OLIDGmTHbfa4evdT4XJHr5ZQSkw.svg",
       },
       {
         title: "Increased Endurance",
         description:
           "Boost cardiovascular stamina. Increased Endurance: Boost cardiovascular stamina",
-        icon: "https://framerusercontent.com/images/Xa9E0Qnpdeb15ZYqXgGnAswaxo.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/Xa9E0Qnpdeb15ZYqXgGnAswaxo.svg",
       },
       {
         title: "Metabolic Boost",
         description:
           "Experience the afterburn effect for continued calorie burn post-workout.",
-        icon: "https://framerusercontent.com/images/dtmVCOXYem1RsNHIO7PAqiswkQU.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/dtmVCOXYem1RsNHIO7PAqiswkQU.svg",
       },
       {
         title: "Mental Focus",
         description:
           "Enhance mental resilience and focus through challenging intervals.",
-        icon: "https://framerusercontent.com/images/ZVgilnwHvIy33J924CHLrB2s.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/ZVgilnwHvIy33J924CHLrB2s.svg",
       },
       {
         title: "Time Efficiency",
         description: "Achieve results with a time-efficient, intense workout.",
-        icon: "https://framerusercontent.com/images/M7rgiiADwLyRj2Pwr7S89kAsXGo.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/M7rgiiADwLyRj2Pwr7S89kAsXGo.svg",
       },
       {
         title: "Community Engagement",
         description:
           "Join a supportive community for motivation and camaraderie.",
-        icon: "https://framerusercontent.com/images/DJoyFvdqZ1ltEeJZHSoZretk4.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/DJoyFvdqZ1ltEeJZHSoZretk4.svg",
       },
       {
         title: "Adaptability",
         description:
           "Suitable for various fitness levels with adaptable exercises.",
-        icon: "https://framerusercontent.com/images/naA6lHltkS050gPTEQ40zJWqYU.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/naA6lHltkS050gPTEQ40zJWqYU.svg",
       },
     ],
     images: [
@@ -176,49 +184,57 @@ export const classesData = [
         title: "Flexibility",
         description:
           "Improve flexibility and range of motion in muscles and joints.",
-        icon: "https://framerusercontent.com/images/Yb7S9uk28VOdDbINdfeEQSlbqGs.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/Yb7S9uk28VOdDbINdfeEQSlbqGs.svg",
       },
       {
         title: "Strength",
         description:
           "Build and tone muscles, enhancing overall strength and endurance.",
-        icon: "https://framerusercontent.com/images/OLIDGmTHbfa4evdT4XJHr5ZQSkw.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/OLIDGmTHbfa4evdT4XJHr5ZQSkw.svg",
       },
       {
         title: "Stress Relief",
         description:
           "Reduce stress levels and promote relaxation through mindful movements.",
-        icon: "https://framerusercontent.com/images/Xa9E0Qnpdeb15ZYqXgGnAswaxo.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/Xa9E0Qnpdeb15ZYqXgGnAswaxo.svg",
       },
       {
         title: "Balance",
         description:
           "Enhance balance and stability, improving posture and coordination.",
-        icon: "https://framerusercontent.com/images/dtmVCOXYem1RsNHIO7PAqiswkQU.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/dtmVCOXYem1RsNHIO7PAqiswkQU.svg",
       },
       {
         title: "Mindfulness",
         description:
           "Cultivate mindfulness and awareness through focused breathing and meditation.",
-        icon: "https://framerusercontent.com/images/ZVgilnwHvIy33J924CHLrB2s.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/ZVgilnwHvIy33J924CHLrB2s.svg",
       },
       {
         title: "Energy Boost",
         description:
           "Increase energy levels and vitality with rejuvenating yoga sessions.",
-        icon: "https://framerusercontent.com/images/M7rgiiADwLyRj2Pwr7S89kAsXGo.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/M7rgiiADwLyRj2Pwr7S89kAsXGo.svg",
       },
       {
         title: "Community",
         description:
           "Connect with a supportive community for motivation and encouragement.",
-        icon: "https://framerusercontent.com/images/DJoyFvdqZ1ltEeJZHSoZretk4.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/DJoyFvdqZ1ltEeJZHSoZretk4.svg",
       },
       {
         title: "Mind-Body Connection",
         description:
           "Enhance mind-body connection for holistic well-being and self-awareness.",
-        icon: "https://framerusercontent.com/images/naA6lHltkS050gPTEQ40zJWqYU.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/naA6lHltkS050gPTEQ40zJWqYU.svg",
       },
     ],
     images: [
@@ -255,37 +271,43 @@ export const classesData = [
         title: "Cardiovascular Endurance",
         description:
           "Improve heart health and lung capacity through high-intensity cycling intervals.",
-        icon: "https://framerusercontent.com/images/u2NVREFmKQCoKNNa2eJr9Ys8.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/u2NVREFmKQCoKNNa2eJr9Ys8.svg",
       },
       {
         title: "Lower Body Strength",
         description:
           "Build leg muscles and improve endurance with resistance-based cycling.",
-        icon: "https://framerusercontent.com/images/ktvR7YZXv86yk3qPT7lKl9iMJQ.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/ktvR7YZXv86yk3qPT7lKl9iMJQ.svg",
       },
       {
         title: "Calorie Burn",
         description:
           "Torch calories and boost metabolism with a combination of cardio and strength exercises.",
-        icon: "https://framerusercontent.com/images/D67b5ESfqhSdUxyUzpsRevr71qg.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/D67b5ESfqhSdUxyUzpsRevr71qg.svg",
       },
       {
         title: "Full-Body Workout",
         description:
           "Engage upper body, core, and lower body muscles for a comprehensive workout.",
-        icon: "https://framerusercontent.com/images/HGVtUhueZfUbihI5RzvwsaFBRM.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/HGVtUhueZfUbihI5RzvwsaFBRM.svg",
       },
       {
         title: "Endorphin Release",
         description:
           "Experience a natural mood boost and stress relief from the intensity of the workout.",
-        icon: "https://framerusercontent.com/images/yLUXrsx3XFIdyEyoo7QV4aPChk.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/yLUXrsx3XFIdyEyoo7QV4aPChk.svg",
       },
       {
         title: "Mental Focus",
         description:
           "Enhance mental resilience and concentration as you push through challenging intervals.",
-        icon: "https://framerusercontent.com/images/EsKLWIpLdBQSqer1VToydKIwCZA.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/EsKLWIpLdBQSqer1VToydKIwCZA.svg",
       },
     ],
     images: [
@@ -310,48 +332,56 @@ export const classesData = [
     benefits: [
       {
         title: "Calorie Burn",
-        icon: "https://framerusercontent.com/images/D67b5ESfqhSdUxyUzpsRevr71qg.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/D67b5ESfqhSdUxyUzpsRevr71qg.svg",
         description:
           "Burn calories and boost metabolism with energetic dance routines.",
       },
       {
         title: "Cardiovascular Endurance",
-        icon: "https://framerusercontent.com/images/0BJUTsN887Zi4cCtqpfOobsy0A.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/0BJUTsN887Zi4cCtqpfOobsy0A.svg",
         description:
           "Improve heart health and endurance through continuous movement.",
       },
       {
         title: "Coordination Enhancement",
-        icon: "https://framerusercontent.com/images/UwWaD0FmY5XBYvgELALgHxdCs.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/UwWaD0FmY5XBYvgELALgHxdCs.svg",
         description:
           "Enhance coordination and agility with fun and dynamic dance moves.",
       },
       {
         title: "Mood Boost",
-        icon: "https://framerusercontent.com/images/GhiAXpg9rXXrZFdg5KJXSoFEs.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/GhiAXpg9rXXrZFdg5KJXSoFEs.svg",
         description:
           "Elevate mood and reduce stress with the release of endorphins during dance.",
       },
       {
         title: "Community Connection",
-        icon: "https://framerusercontent.com/images/DJoyFvdqZ1ltEeJZHSoZretk4.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/DJoyFvdqZ1ltEeJZHSoZretk4.svg",
         description: "Dance alongside others in an inclusive atmosphere.",
       },
       {
         title: "Full-Body Workout",
-        icon: "https://framerusercontent.com/images/C8xeooSpncjHw6XLxKiTazXGc.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/C8xeooSpncjHw6XLxKiTazXGc.svg",
         description:
           "Engage muscles from head to toe for a comprehensive cardio workout.",
       },
       {
         title: "Fun and Enjoyment",
-        icon: "https://framerusercontent.com/images/hSorHPLq3UlK5CzLtNBfZsWAw.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/hSorHPLq3UlK5CzLtNBfZsWAw.svg",
         description:
           "Experience the joy of dance while getting fit and having fun.",
       },
       {
         title: "Self-Expression",
-        icon: "https://framerusercontent.com/images/YC7ECTiZ8hIrEiF1MageVAeLk.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/YC7ECTiZ8hIrEiF1MageVAeLk.svg",
         description: "Express yourself creatively through movement and music.",
       },
     ],
@@ -377,49 +407,57 @@ export const classesData = [
     benefits: [
       {
         title: "Functional Strength",
-        icon: "https://framerusercontent.com/images/u2NVREFmKQCoKNNa2eJr9Ys8.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/u2NVREFmKQCoKNNa2eJr9Ys8.svg",
         description:
           "Build strength in movements that mimic daily tasks for improved functionality.",
       },
       {
         title: "Mobility Enhancement",
-        icon: "https://framerusercontent.com/images/3SM46KdQdIkDwKuQJ24OdC0zcfs.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/3SM46KdQdIkDwKuQJ24OdC0zcfs.svg",
         description:
           "Increase flexibility and range of motion to perform activities with ease.",
       },
       {
         title: "Balance Improvement",
-        icon: "https://framerusercontent.com/images/k8nPGk4ahtjVPmZxkxDSvr2g.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/k8nPGk4ahtjVPmZxkxDSvr2g.svg",
         description:
           "Enhance balance and stability to prevent falls and injuries.",
       },
       {
         title: "Coordination Development",
-        icon: "https://framerusercontent.com/images/atoVAyWA0kHlUeBQwdFk0sjEjQ.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/atoVAyWA0kHlUeBQwdFk0sjEjQ.svg",
         description:
           "Improve coordination and motor skills through dynamic movements.",
       },
       {
         title: "Injury Prevention",
-        icon: "https://framerusercontent.com/images/7DoReFU50JjKdnVVIGGnnppa8Ag.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/7DoReFU50JjKdnVVIGGnnppa8Ag.svg",
         description:
           "Reduce the risk of injury by strengthening muscles and improving movement mechanics.",
       },
       {
         title: "Core Stability",
-        icon: "https://framerusercontent.com/images/indtU96SEhVqWhDrGL8P8T7hR6U.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/indtU96SEhVqWhDrGL8P8T7hR6U.svg",
         description:
           "Strengthen core muscles to support proper posture and prevent back pain.",
       },
       {
         title: "Adaptability",
-        icon: "https://framerusercontent.com/images/hSorHPLq3UlK5CzLtNBfZsWAw.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/hSorHPLq3UlK5CzLtNBfZsWAw.svg",
         description:
           "Exercises can be modified to accommodate various fitness levels and abilities.",
       },
       {
         title: "Energy Boost",
-        icon: "https://framerusercontent.com/images/D67b5ESfqhSdUxyUzpsRevr71qg.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/D67b5ESfqhSdUxyUzpsRevr71qg.svg",
         description: "Feel more energized and capable in everyday activities.",
       },
     ],
@@ -521,56 +559,56 @@ export const classesData = [
       "https://framerusercontent.com/images/aHK2I02cxtgzC65DJyAwNbGCz6Y.png",
     benefits: [
       {
-        iconSrc:
+        iconUrl:
           "https://framerusercontent.com/images/JX3ZPWtU0owHbSNROpmeA9XNEo.svg",
         title: "Muscle Definition",
         description:
           "Sculpt and tone muscles for a leaner, more defined physique.",
       },
       {
-        iconSrc:
+        iconUrl:
           "https://framerusercontent.com/images/cwfXqfbJ6b2OZM1smkU0Goktzw.svg",
         title: "Strength Gains",
         description:
           "Increase overall strength and endurance with challenging resistance exercises.",
       },
       {
-        iconSrc:
+        iconUrl:
           "https://framerusercontent.com/images/D67b5ESfqhSdUxyUzpsRevr71qg.svg",
         title: "Metabolism Boost",
         description:
           "Build lean muscle mass, which helps increase metabolism for more efficient calorie burning.",
       },
       {
-        iconSrc:
+        iconUrl:
           "https://framerusercontent.com/images/QedjoS1LP1GC05GqYnBaW2bU60.svg",
         title: "Bone Health",
         description:
           "Strength training helps improve bone density and reduce the risk of osteoporosis.",
       },
       {
-        iconSrc:
+        iconUrl:
           "https://framerusercontent.com/images/7DoReFU50JjKdnVVIGGnnppa8Ag.svg",
         title: "Injury Prevention",
         description:
           "Strengthening muscles around joints can help reduce the risk of injury during physical activities.",
       },
       {
-        iconSrc:
+        iconUrl:
           "https://framerusercontent.com/images/6v7erLksBb8rAVWyRJBDm42Z9nI.svg",
         title: "Functional Fitness",
         description:
           "Enhance everyday movements and activities by improving muscle strength and endurance.",
       },
       {
-        iconSrc:
+        iconUrl:
           "https://framerusercontent.com/images/CwMP9a71iNLYsJuDwG0LSWYxg.svg",
         title: "Variety and Challenge",
         description:
           "Experience a diverse range of exercises to keep workouts engaging and challenging.",
       },
       {
-        iconSrc:
+        iconUrl:
           "https://framerusercontent.com/images/NMwBfRV0GEdUsdDFVgYSl12EzA.svg",
         title: "Confidence Building",
         description:
@@ -599,49 +637,57 @@ export const classesData = [
     benefits: [
       {
         title: "Calorie Burn",
-        icon: "https://framerusercontent.com/images/D67b5ESfqhSdUxyUzpsRevr71qg.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/D67b5ESfqhSdUxyUzpsRevr71qg.svg",
         description:
           "Burn a high number of calories while improving cardiovascular health.",
       },
       {
         title: "Full-Body Workout",
-        icon: "https://framerusercontent.com/images/xhAksSKExnFqUxNk3K3WjrF5A.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/xhAksSKExnFqUxNk3K3WjrF5A.svg",
         description:
           "Engage multiple muscle groups for a comprehensive workout.",
       },
       {
         title: "Stress Relief",
-        icon: "https://framerusercontent.com/images/PrBMgzXBoMxwZDwkpAM7AeAlGhA.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/PrBMgzXBoMxwZDwkpAM7AeAlGhA.svg",
         description:
           "Release tension and boost mood through dynamic movements and punching combos.",
       },
       {
         title: "Cardiovascular Endurance",
-        icon: "https://framerusercontent.com/images/0BJUTsN887Zi4cCtqpfOobsy0A.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/0BJUTsN887Zi4cCtqpfOobsy0A.svg",
         description:
           "Improve heart and lung function with continuous, energetic movements.",
       },
       {
         title: "Self-Defense Skills",
-        icon: "https://framerusercontent.com/images/7DoReFU50JjKdnVVIGGnnppa8Ag.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/7DoReFU50JjKdnVVIGGnnppa8Ag.svg",
         description:
           "Learn basic self-defense techniques while getting a great workout.",
       },
       {
         title: "Coordination Enhancement",
-        icon: "https://framerusercontent.com/images/6rhTU6L3JZHBJDHLiGRhpQ17sZo.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/6rhTU6L3JZHBJDHLiGRhpQ17sZo.svg",
         description:
           "Enhance agility, balance, and coordination with varied footwork and strikes.",
       },
       {
         title: "Fun and Energetic Atmosphere",
-        icon: "https://framerusercontent.com/images/9BG1VKuxyCRuzKsxFbMVtfvVegY.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/9BG1VKuxyCRuzKsxFbMVtfvVegY.svg",
         description:
           "Enjoy a fun and supportive environment that motivates you to give your all.",
       },
       {
         title: "Empowerment",
-        icon: "https://framerusercontent.com/images/E5PYVLSYvd9Vb9a3e7LR9wiEYc.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/E5PYVLSYvd9Vb9a3e7LR9wiEYc.svg",
         description:
           "Feel empowered and confident as you challenge yourself and push your limits.",
       },
@@ -667,49 +713,57 @@ export const classesData = [
       "https://framerusercontent.com/images/933KU30jwo5r87CBO69Q12nE.png",
     benefits: [
       {
-        icon: "https://framerusercontent.com/images/naA6lHltkS050gPTEQ40zJWqYU.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/naA6lHltkS050gPTEQ40zJWqYU.svg",
         title: "Flexibility Enhancement",
         description:
           "Increase flexibility and range of motion through gentle stretching movements.",
       },
       {
-        icon: "https://framerusercontent.com/images/knTxmvfCuTTHNS390IYB0e0MNjc.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/knTxmvfCuTTHNS390IYB0e0MNjc.svg",
         title: "Stress Reduction",
         description:
           "Release tension and promote relaxation with calming breathing techniques.",
       },
       {
-        icon: "https://framerusercontent.com/images/MYWmAwy0lZVCSeEkbCwvVe9AM.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/MYWmAwy0lZVCSeEkbCwvVe9AM.svg",
         title: "Posture Improvement",
         description:
           "Correct imbalances and alleviate muscle tightness to enhance posture and alignment.",
       },
       {
-        icon: "https://framerusercontent.com/images/qSigcwOOcH6jXIUcn1xpY2Vf3ec.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/qSigcwOOcH6jXIUcn1xpY2Vf3ec.svg",
         title: "Mind-Body Connection",
         description:
           "Cultivate mindfulness and awareness of body sensations for holistic well-being.",
       },
       {
-        icon: "https://framerusercontent.com/images/0FYNt5LV2t7wRT9njr1AFYVYAhE.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/0FYNt5LV2t7wRT9njr1AFYVYAhE.svg",
         title: "Muscle Relaxation",
         description:
           "Reduce muscle stiffness and soreness, promoting faster recovery and injury prevention.",
       },
       {
-        icon: "https://framerusercontent.com/images/qRwpNu7m9Tu0WNXRE50oIcv8Y.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/qRwpNu7m9Tu0WNXRE50oIcv8Y.svg",
         title: "Joint Mobility",
         description:
           "Improve joint health and function by moving through a range of motion exercises.",
       },
       {
-        icon: "https://framerusercontent.com/images/C6aGFPj3kYZ9tuswTYIdHWVvynU.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/C6aGFPj3kYZ9tuswTYIdHWVvynU.svg",
         title: "Emotional Balance",
         description:
           "Find inner peace and emotional balance through the practice of mindfulness and relaxation.",
       },
       {
-        icon: "https://framerusercontent.com/images/NMwBfRV0GEdUsdDFVgYSl12EzA.svg",
+        iconUrl:
+          "https://framerusercontent.com/images/NMwBfRV0GEdUsdDFVgYSl12EzA.svg",
         title: "Mental Clarity",
         description:
           "Enhance mental focus and clarity by quieting the mind and reducing mental chatter.",

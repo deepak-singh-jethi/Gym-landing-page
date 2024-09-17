@@ -28,11 +28,11 @@ const ClassInfo = () => {
           page={`classes > ${title.toLowerCase()}`}
         />
       </MotionBottomToTop>
-      {/* Class Details Section */}
+      {/*  Class Details Section */}
       <div className="container mx-auto space-y-20 my-20">
-        {/* class details */}
+        {/* class information  details */}
         <ClassDetails classData={classData} />
-        {/* benefits of class */}
+        {/* benefits details  of class  */}
       </div>
       <BenefitsOfClass benefits={benefits} />
     </>
@@ -42,6 +42,8 @@ const ClassInfo = () => {
 export default ClassInfo;
 
 // eslint-disable-next-line no-unused-vars
+
+// one class card all the details are shown here
 const ClassDetails = ({ classData }) => {
   const variantsLi = {
     hidden: { opacity: 0, x: 50 },
